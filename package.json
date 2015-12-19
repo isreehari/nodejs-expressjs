@@ -1,0 +1,42 @@
+{
+  "name": "nodejsandexpressjs",
+  "version": "0.0.1",
+  "description": "It's simple node.js and Express.js site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isreehari/nodejs-expressjs.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Expressjs"
+  ],
+  "author": "Hari Inukollu <isreehari@hotmail.com> (isreehari.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isreehari/nodejs-expressjs/issues"
+  },
+  "homepage": "https://github.com/isreehari/nodejs-expressjs#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.0",
+    "ejs": "^2.3.4",
+    "emitter-component": "^1.1.1",
+    "express": "^4.13.3",
+    "file-stream-rotator": "0.0.6",
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "js-beautify": "^1.5.10",
+    "morgan": "^1.6.1",
+    "ncp": "^2.0.0",
+    "path": "^0.12.7",
+    "rimraf": "^2.4.4",
+    "socket.io": "^1.3.7",
+    "static-favicon": "^2.0.0-alpha",
+    "util": "^0.10.3",
+    "vash": "^0.11.0"
+  }
+}

@@ -1,0 +1,27 @@
+@html.extend('layouts/layout', function(model) {
+
+  @html.block('styles', function() {
+    <link rel="stylesheet" href="css/style.css">
+  })
+
+  @html.block('main', function(model) {
+
+    <main>
+
+      <div class="container"> Welcome to Node.js with Express.js </div>
+
+    </main>
+
+  })
+
+  @html.block('scripts', function() {
+
+    @******************************
+    |
+    | Core Javascript
+    |
+    ******************************@
+
+  })
+
+})
